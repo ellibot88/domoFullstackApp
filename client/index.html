@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Domo Data</title>
+</head>
+<body>
+    <img src="https://www.domo.com/assets/images/logo@2x.png" alt="Domo" width="200" height="200">
+    <br>
+    <br>
+    <div id="flexbox">
+    <form id="form1">
+        <label for="dataset-id">Domo Dataset Id:</label>
+        <input type="text" name ='dataset-id' id="dataset-id" placeholder="enter datasetid">
+        <label for="query-id">SQL Query:</label>
+        <textarea name="query-id" id="query-id" cols="30" rows="10" placeholder="enter SQL query"></textarea>
+        <input type = "button" name="query-data" id="query-data" value="Query dataset">
+    </form>
+</div>
+ 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.26.1/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
